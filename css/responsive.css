@@ -1,0 +1,142 @@
+@media (max-width: 991px){
+    .container{
+        width: 720px;
+    }
+    .info-item h2{
+        font-size: 36px;
+    }
+    .info-item h1{
+        font-size: 56px;
+    }
+    .pic-item{
+        width: calc((100% / 2) - 25px);
+    }
+    .pic-item:nth-child(3n+3) {
+        margin-right: 35px;
+    }
+    .pic-item:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .cicle-team img{
+        width: 180px;
+    }
+}
+@media(min-width: 768px){
+    .burger-btn{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        width: 500px;
+    }
+    .header-items{
+        margin-top: 20px;
+    }
+    .s1 {
+        height: 80vh;
+    }
+    .header-menu{
+       display: none;
+    }
+    .info-item h2 {
+        font-size: 22px;
+    }
+    .info-item h1 {
+        font-size: 30px;
+    }
+    .more-click{
+        padding: 20px 50px;
+        font-size: 14px;
+    }
+    .service-menu{
+        margin-top: 30px;
+    }
+    .service-item{
+        padding: 50px 0 70px;
+    }
+    .pic-item .img-block{
+        height: 220px;
+    }
+    .cicle-items{
+        display: none;
+    }
+    .about-team{
+        padding: 60px 0;
+    }
+    .team-item{
+        justify-content: flex-start;
+        overflow: auto;
+    }
+}
+@media (max-width: 575px){
+    .container {
+        width: 350px;
+    }
+    .s1 {
+        height: 60vh;
+    }
+    .info-item h2 {
+        font-size: 18px;
+    }
+    .info-item h1 {
+        font-size: 24px;
+    }
+    .header-menu{
+        display: none;
+    }
+    .service-item{
+        padding: 40px 0;
+        overflow: auto;
+        justify-content: flex-start;
+    }
+    .icon-info{
+        width: 100%;
+        min-width: 100%;
+    }
+    .picture-block{
+        justify-content: center;
+    }
+    .pic-block{
+        padding: 60px 0 40px;
+    }
+    .pic-block h2, .about-team h2, .service-menu h2, .top-text h2{
+        font-size: 30px;
+    }
+    .pic-item{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        max-width: 290px;
+    }
+    .cicle-team{
+        min-width: 100%;
+        margin: 0;
+    }
+    .team-text{
+        padding: 0;
+        padding-bottom: 30px;
+    }
+    .shapes form .left-side{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .shapes form .right-side{
+        width: 100%;
+        margin: 0;
+    }
+    .right-side textarea{
+        height: 150px;
+    }
+    .footer-menu{
+        flex-direction: column-reverse;
+    }
+    .footer-icons{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .footer-item{
+        margin-bottom: 10px;
+    }
+}
